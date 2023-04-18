@@ -47,10 +47,11 @@ header {
 
 /* main container */
 .main-container {
-    height: 600px;
+    height: 680px;
     margin-top: 1px;
     border-radius: 0 0 5px 5px;
-}/* utilities */
+    padding-left: 40px;
+}
 
 .buttom-top {
     vertical-align: middle;
@@ -58,15 +59,91 @@ header {
 }
 
 button {
-    padding: 5px 6px;
+    padding: 9px 6px;
     border-radius: 5px ;
-    border: 1px solid rgb(170, 170, 170);
+    border: 1px solid #8c8c8c;
     background-color: white;
     width: 100px;
     color: rgb(144, 142, 142);
+    font-size: 15px;
 }
 
 .buttom-left {
     color: white;
-    background-color: rgb(48, 132, 250);
+    background-color: #2c90ff;
+    border-style: none;
+}
+
+/* utilities */
+
+.title-main{
+    font-size: 20px;
+    padding-top: 50px;
+}
+
+ul, section{
+    list-style-type: none;
+    
+
+}
+
+
+li{
+    margin-top: 20px;
+}
+
+
+.check-mark, .x-mark {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    line-height: 20px;
+}
+
+.check-mark {
+    color: green;
+    border: 1px solid green;
+}
+
+.x-mark {
+    color: #eb3716;
+    border: 1px solid #eb3716; 
+}
+
+span, .labe {
+    display: inline-block;
+    width: 85px;
+    height: 30px;
+    border-style: none;
+    border-radius: 18px;
+    margin-left: 2px;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+}
+
+.label-blue{
+    background-color: #45abea;
+}
+
+.label-durkviolet{
+    background-color: #9c72e4;
+}
+
+.label-green{
+    background-color: #64c0a9;
+}
+
+.label-orange{
+    background-color: #f29e33;
+}
+
+.label-light-green{
+    background-color: #b0c926;
+}
+
+.label-deeppink {
+    background-color: #d863a0;
 }
