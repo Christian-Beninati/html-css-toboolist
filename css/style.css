@@ -42,6 +42,7 @@ header {
     height: 50px;
     margin-top: 30px;
     border-radius: 5px 5px 0 0 ;
+    line-height: 50px;
 }
 
 /* main container */
@@ -49,4 +50,23 @@ header {
     height: 600px;
     margin-top: 1px;
     border-radius: 0 0 5px 5px;
+}/* utilities */
+
+.buttom-top {
+    vertical-align: middle;
+    margin-left: 30px;
+}
+
+button {
+    padding: 5px 6px;
+    border-radius: 5px ;
+    border: 1px solid rgb(170, 170, 170);
+    background-color: white;
+    width: 100px;
+    color: rgb(144, 142, 142);
+}
+
+.buttom-left {
+    color: white;
+    background-color: rgb(48, 132, 250);
 }
