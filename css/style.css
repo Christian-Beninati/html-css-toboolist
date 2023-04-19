@@ -39,23 +39,24 @@ header {
 
 /* nav container */
 .nav-container{
-    height: 50px;
+    height: 55px;
     margin-top: 30px;
     border-radius: 5px 5px 0 0 ;
-    line-height: 50px;
+    line-height: 55px;
 }
 
 /* main container */
 .main-container {
-    height: 680px;
+    height: 690px;
     margin-top: 1px;
     border-radius: 0 0 5px 5px;
     padding-left: 40px;
+    padding-top: 1px;
 }
 
 .buttom-top {
     vertical-align: middle;
-    margin-left: 30px;
+    margin-left: 30px ;
 }
 
 button {
@@ -77,8 +78,8 @@ button {
 /* utilities */
 
 .title-main{
-    font-size: 20px;
-    padding-top: 50px;
+    font-size: 30px;
+    padding-top: 20px;
 }
 
 ul, section{
