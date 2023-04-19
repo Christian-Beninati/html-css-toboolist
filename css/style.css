@@ -33,28 +33,23 @@ h1 {
 }
 
 
-/* nav container and main container */
-.nav-container, .main-container {
+/* card */
+.card {
     max-width: 1000px;
     background-color: white;
-    margin: auto;
+    margin: 30px auto;
+    border-radius: 5px;
 }
 
-/* nav container */
-.nav-container{
-    height: 55px;
-    margin-top: 30px;
-    border-radius: 5px 5px 0 0 ;
-    line-height: 55px;
+/* card-header */
+.card-header{
+   padding: 10px 8px;
+   border-bottom: 2px solid #dfdbdb;;
 }
 
-/* main container */
-.main-container {
-    /* height: 690px; */
-    margin-top: 1px;
-    border-radius: 0 0 5px 5px;
-    padding-left: 40px;
-    padding-top: 1px;
+/* card-body */
+.card-body {
+    padding: 20px 30px;
 }
 
 .buttom-top {
@@ -85,17 +80,13 @@ button {
     padding-top: 20px;
 }
 
-ul, section{
+ul, div{
     list-style-type: none;
-    
-
 }
-
 
 li{
     margin-top: 20px;
 }
-
 
 .check-mark, .x-mark {
     width: 20px;
