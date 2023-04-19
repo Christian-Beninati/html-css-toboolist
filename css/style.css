@@ -21,8 +21,7 @@ header {
 
 h1 {
     display: inline;
-    font-size: 38px;
-    font-weight: 900px;
+    font-size: 40px;
     vertical-align: middle;
 }
 
@@ -117,6 +116,7 @@ span, .label {
     text-align: center;
     line-height: 30px;
     color: white;
+
 }
 
 .label-blue{
