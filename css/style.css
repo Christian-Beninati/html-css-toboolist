@@ -42,13 +42,8 @@ h1 {
 
 /* card-header */
 .card-header{
-   padding: 10px 8px;
-   border-bottom: 2px solid #dfdbdb;;
-}
-
-/* card-body */
-.card-body {
-    padding: 20px 30px;
+    padding: 10px 8px;
+    border-bottom: 2px solid #dfdbdb;;
 }
 
 .buttom-top {
@@ -70,6 +65,11 @@ button {
     color: white;
     background-color: #2c90ff;
     border-style: none;
+}
+
+/* card-body */
+.card-body {
+    padding: 20px 30px;
 }
 
 /* utilities */
